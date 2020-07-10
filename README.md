@@ -6,10 +6,18 @@
 - Go to root directory of try-pyCPP: `cd try-pyCPP`
 #### On MacOS/Linux:
 - Need to have `CMake` installed.
-- Run `pip install .`, it will install in global python environment.
+- Run `pip install .`, it will install in the global python environment.
 #### On Windows:
-- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools.
-- Run `python3 setup.py develop --user`
+- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. (#TODO: Figure out what exactly are needed to install in Windows.)
+- Install the python module by
+  - `python3 setup.py develop --user`
+- Alternative Method (Cleaner):
+    - Create a virtual environment by `python3 -m venv venv/`
+    - Enter the virtual environment by `./venv/Scripts/Activate.ps1` 
+    - If success, prompt will change starting with `(venv)`
+    - Install pyCPP by `pip install .`
+    - pyCPP should be able to import now.
+    - Exit virtual environment by `deactivate` whenever done using the module.
 
 # Potential Problems During Installation
 - If no CMake was installed, install CMake: (Ubuntu) `sudo apt-get -y install cmake` (MacOS) `brew install cmake`
