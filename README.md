@@ -9,7 +9,7 @@
   - If `CMake` not installed:
     - MacOS: `brew install cmake`
     - Ubuntu: `sudo apt-get -y install cmake`
-- Run `pip install .` 
+- Run `pip install .` Under the directory `try-pyCPP/`
 - Done and ready to be imported. (It will install in the global python environment)
 #### On Windows:
 - [ ] TODO: Figure out what exactly are needed to install in Windows.
