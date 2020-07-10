@@ -1,6 +1,6 @@
 # Install
-- `git clone https://github.com/bznick98/try-pyCPP.git`
-- `cd try-pyCPP`
+- First clone the repo `git clone https://github.com/bznick98/try-pyCPP.git`
+- go to try-pyCPP root directory `cd try-pyCPP`
 #### On MacOS/Linux:
 - Need to have `CMake` installed.
 - Run `python3 setup.py develop --user`
