@@ -2,10 +2,6 @@
 - This is a tiny example of combining C++ code with Python and build with CMake, On C++ side, it currently only has 1 function `int add(int x, int y);` which is then wrapped to a python module using PyBind11, and can be imported by python using `import pyCPP`.
   
 # Install
-- The installation has tested on:
-  - [x]  `MacOS 10.15.5`
-  - [x]  `Ubuntu 16.04`
-  - [x]  `Windows 10`
 - First, clone the repo: `git clone https://github.com/bznick98/try-pyCPP.git`
 - Go to root directory of try-pyCPP: `cd try-pyCPP`
 #### On MacOS/Ubuntu:
@@ -46,3 +42,7 @@
   - OR run `sh rmbuild.sh` if you used `python3 setup.py` to install.
 - On Windows: Haven't figured it out where the package was installed.
 
+# The installation has tested on:
+- [x]  `MacOS 10.15.5`
+- [x]  `Ubuntu 16.04`
+- [x]  `Windows 10`
