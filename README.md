@@ -2,7 +2,7 @@
 - This is a tiny example of combining C++ code with Python and build with CMake, On C++ side, it currently only has 1 function `int add(int x, int y);` which is then wrapped to a python module using PyBind11, and can be imported by python using `import pyCPP`.
   
 # Install
-- The installation is tested in:
+- The installation has tested on:
   - [x]  `MacOS 10.15.5`
   - [x]  `Ubuntu 16.04`
   - [x]  `Windows 10`
