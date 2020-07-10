@@ -6,9 +6,13 @@
 - Go to root directory of try-pyCPP: `cd try-pyCPP`
 #### On MacOS/Linux:
 - Need to have `CMake` installed.
+  - If `CMake` not installed:
+    - MacOS: `brew install cmake`
+    - Ubuntu: `sudo apt-get -y install cmake`
 - Run `pip install .`, it will install in the global python environment.
 #### On Windows:
-- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. (#TODO: Figure out what exactly are needed to install in Windows.)
+- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. (
+- [ ] TODO: Figure out what exactly are needed to install in Windows.)
 - Install the python module by
   - `python3 setup.py develop --user`
 - Alternative Method (Cleaner):
@@ -20,13 +24,17 @@
     - Exit virtual environment by `deactivate` whenever done using the module.
 
 # Potential Problems During Installation
-- If no CMake was installed, install CMake: (Ubuntu) `sudo apt-get -y install cmake` (MacOS) `brew install cmake`
-- If on *Ubuntu: Fatal error: Python.h: No such file or Directory*, then install python3-dev by running `apt-get install python3-dev`
+- If no CMake was installed:
+  - If `CMake` not installed:
+    - MacOS: `brew install cmake`
+    - Ubuntu: `sudo apt-get -y install cmake`
+- If on *Ubuntu: Fatal error: Python.h: No such file or Directory*
+  - Install python3-dev by running `apt-get install python3-dev`
 
 # To Uninstall / Remove build:
 - On MacOS/Linux: run `pip uninstall pyCPP` OR run `sh rmbuild.sh` if you used `python3 setup.py` to install.
 - On Windows: Haven't figured it out where the package was installed.
 
-# Run
-- After successful install, you should be able to `import pyCPP` just as using any other python modules.
+# Run & Test
+- After successful install, you should be able to `import pyCPP` just like using any other python modules.
 - There is only 1 sample function `pyCPP.add(x,y)` which takes two int arguments and add them up.
