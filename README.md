@@ -16,8 +16,8 @@
 - Run `pip install .` 
 - Done and ready to be imported. (It will install in the global python environment)
 #### On Windows:
-- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. (
-- [ ] TODO: Figure out what exactly are needed to install in Windows.)
+- [ ] TODO: Figure out what exactly are needed to install in Windows.
+- I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. 
 - Install the python module by
   - `python3 setup.py develop --user`
   - Done if no error occurs, ready to be imported.
