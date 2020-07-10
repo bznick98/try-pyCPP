@@ -13,18 +13,20 @@
   - If `CMake` not installed:
     - MacOS: `brew install cmake`
     - Ubuntu: `sudo apt-get -y install cmake`
-- Run `pip install .`, it will install in the global python environment.
+- Run `pip install .` 
+- Done and ready to be imported. (It will install in the global python environment)
 #### On Windows:
 - I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools. (
 - [ ] TODO: Figure out what exactly are needed to install in Windows.)
 - Install the python module by
   - `python3 setup.py develop --user`
+  - Done if no error occurs, ready to be imported.
 - Alternative Method (Cleaner):
     - Create a virtual environment by `python3 -m venv venv/`
     - Enter the virtual environment by `./venv/Scripts/Activate.ps1` 
     - If success, prompt will change starting with `(venv)`
     - Install pyCPP by `pip install .`
-    - pyCPP should be able to import now.
+    - Done and pyCPP should be able to import now.
     - Exit virtual environment by `deactivate` whenever done using the module.
 
 # Potential Problems During Installation
