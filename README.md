@@ -6,7 +6,7 @@
 - Go to root directory of try-pyCPP: `cd try-pyCPP`
 #### On MacOS/Linux:
 - Need to have `CMake` installed.
-- Run `python3 setup.py develop --user`
+- Run `pip install .`, it will install in global python environment.
 #### On Windows:
 - I installed Visual Studio 2019 with C++ extension, which includes CMake and some other necessary tools.
 - Run `python3 setup.py develop --user`
@@ -16,7 +16,7 @@
 - If on *Ubuntu: Fatal error: Python.h: No such file or Directory*, then install python3-dev by running `apt-get install python3-dev`
 
 # To Uninstall / Remove build:
-- On MacOS/Linux: run `sh rmbuild.sh` or `python3 setup.py clean`
+- On MacOS/Linux: run `pip uninstall pyCPP` OR run `sh rmbuild.sh` if you used `python3 setup.py` to install.
 - On Windows: Haven't figured it out where the package was installed.
 
 # Run
