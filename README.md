@@ -9,3 +9,7 @@
 # To uninstall:
 - On MacOS/Linux: run `sh rmbuild.sh` or `python3 setup.py clean`
 - On Windows: Haven't figured it out where the package was installed.
+
+# FAQ
+- if No CMake was installed, install CMake: (Ubuntu) `sudo apt-get -y install cmake` (MacOS) `brew install cmake`
+- If on *Ubuntu: Fatal error: Python.h: No such file or Directory*, then install python3-dev by running `apt-get install python3-dev`
