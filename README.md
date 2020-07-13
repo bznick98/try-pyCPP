@@ -37,7 +37,7 @@
 - There is only 1 sample function `pyCPP.add(x,y)` which takes two int arguments and add them up.
 - Example Use:
   ```
-  import python
+  import pyCPP
   pyCPP.add(20,30)
   ```
   - The program should print out a statement and a result.
