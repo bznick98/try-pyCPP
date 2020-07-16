@@ -36,7 +36,7 @@
 - After successful install, you should be able to `import pyCPP` just like using any other python modules.
 - There is only 1 sample function `pyCPP.add(x,y)` which takes two int arguments and add them up.
 - Example Use:
-  ```
+  ```python
   import pyCPP
   pyCPP.add(20,30)
   ```
