@@ -23,10 +23,14 @@ vehicle = Model()
 - After we have a model with defined ***Initial Set, Unsafe Set, etc.*** We can perform **simulation/reachability analysis** based on the model.
 
 ## Data Types
-```python
-SetOfEquations dynamics_of_model # The differential equations, represented by some data structrues?
-int Dimension # the number of variables
-```
+
+- Equations dynamics_of_model
+  - The differential equations, represented by some data structrues?
+- int dimensions
+  - the number of variables.
+- list() mode_linear
+  - it's a list of bool, indicating the linearity of each mode.
+
 
 ## Operations
 ### Simulation
