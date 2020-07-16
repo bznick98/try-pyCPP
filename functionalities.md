@@ -34,7 +34,7 @@ vehicle = Model()
 
 ### Operations
 - #### Simulation
-  - Perform simulate() from model, with **Initial Set** and **Time Horizon** input.
+  - Perform simulate() from model, with **Initial Set**, **Time Horizon** and **Time Step** input.
 ```python
 '''
 INPUT:
@@ -49,7 +49,7 @@ vehicle.simulate(init_set, T, t)
 ```
 
 - #### Verification
-  - Perform reach() from model, with **Initial Set** and **Time Horizon** input.
+  - Perform reach() from model, with **Initial Set**, **Time Horizon** and **Time Step** input.
 ```python
 '''
 INPUT:
