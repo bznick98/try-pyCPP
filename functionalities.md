@@ -3,9 +3,11 @@
 ```python
 import XXXX
 ```
-# Model Definition
-- The next step would be declaring a **model**? 
+# Model
+## Definition 
+- The first step would be declaring a **model**? 
 ```python
+# create a empty model
 vehicle = Model()
 ```
 - Possible ways to define a model:
@@ -14,23 +16,20 @@ vehicle = Model()
     -  From hyxml format. 
     -  From some other popular model format?
   ```python
+  # it will construct the model from file specified by "filename"
   vehicle.read("filename")
   ```
     
 - After we have a model with defined ***Initial Set, Unsafe Set, etc.*** We can perform **simulation/reachability analysis** based on the model.
 
-# Set
-- Is an abstract class.
-- Subclass can be:
-  - RectangleSet
-  - LinearSet
-  - ...
+## Data Types
+```python
+SetOfEquations dynamics_of_model # The differential equations, represented by some data structrues?
+int Dimension # the number of variables
+```
 
-# ReachTube
-- Is a class.
-- 
-
-# Simulation:
+## Operations
+### Simulation
 - Perform simulate() from model, with **Initial Set** and **Time Horizon** input.
 ```python
 '''
@@ -45,7 +44,7 @@ OUTPUT:
 vehicle.simulate(init_set, T, t) 
 ```
 
-# Verification:
+### Verification
 - Perform reach() from model, with **Initial Set** and **Time Horizon** input.
 ```python
 '''
@@ -58,3 +57,19 @@ OUTPUT:
 ''' 
 vehicle.reach(init_set, T, t)
 ```
+
+
+# Set
+- Is an abstract class.
+- Subclass can be:
+  - RectangleSet
+  - LinearSet
+  - ...
+
+
+# ReachTube
+- Is a class.
+- 
+
+
+
