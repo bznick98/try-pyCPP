@@ -4,7 +4,7 @@
 import XXXX
 ```
 # Model
-## Definition 
+### Definition 
 - The first step would be declaring a **model**? 
 ```python
 # create a empty model
@@ -22,7 +22,7 @@ vehicle = Model()
     
 - After we have a model with defined ***Initial Set, Unsafe Set, etc.*** We can perform **simulation/reachability analysis** based on the model.
 
-## Data Types
+### Data Types
 
 - Equations dynamics_of_model
   - The differential equations, represented by some data structrues?
@@ -32,9 +32,9 @@ vehicle = Model()
   - it's a list of bool, indicating the linearity of each mode.
 
 
-## Operations
-### Simulation
-- Perform simulate() from model, with **Initial Set** and **Time Horizon** input.
+### Operations
+- #### Simulation
+  - Perform simulate() from model, with **Initial Set** and **Time Horizon** input.
 ```python
 '''
 INPUT:
@@ -48,8 +48,8 @@ OUTPUT:
 vehicle.simulate(init_set, T, t) 
 ```
 
-### Verification
-- Perform reach() from model, with **Initial Set** and **Time Horizon** input.
+- #### Verification
+  - Perform reach() from model, with **Initial Set** and **Time Horizon** input.
 ```python
 '''
 INPUT:
